@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver: org.h2.Driver
+    username: sa
+springdoc:
+  api-docs:
+    path: /api-docs
