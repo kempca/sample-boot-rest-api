@@ -12,7 +12,7 @@ public class PersonControllerAdvice {
     @ResponseBody
     @ExceptionHandler(PersonNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    public String employeeNotFoundHandler(PersonNotFoundException ex) {
+    public String personNotFoundHandler(PersonNotFoundException ex) {
         return ex.getMessage();
     }
 }
